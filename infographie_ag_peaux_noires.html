@@ -1,0 +1,382 @@
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Infographique: Acide Glycolique Peaux Noires</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #F8F9FA;
+            color: #212529;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .timeline-item {
+            position: relative;
+            padding-bottom: 2rem;
+            padding-left: 2.5rem;
+            border-left: 4px solid #4361EE;
+        }
+        .timeline-item:last-child {
+            border-left: 4px solid transparent;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: -0.875rem;
+            top: 0.25rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 50%;
+            border: 4px solid #4361EE;
+            background-color: #F8F9FA;
+        }
+        .timeline-item:nth-child(1) .timeline-dot { border-color: #4CC9F0; }
+        .timeline-item:nth-child(1) { border-color: #4CC9F0; }
+        .timeline-item:nth-child(2) .timeline-dot { border-color: #4361EE; }
+        .timeline-item:nth-child(2) { border-color: #4361EE; }
+        .timeline-item:nth-child(3) .timeline-dot { border-color: #7209B7; }
+        .timeline-item:nth-child(3) { border-color: #7209B7; }
+        .timeline-item:nth-child(4) .timeline-dot { border-color: #F72585; }
+        .timeline-item:nth-child(4) { border-left: 4px solid #F72585; }
+        
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            .container {
+                max-width: none !important;
+            }
+            body {
+                background-color: white;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-6xl">
+
+        <div class="text-center mb-8 no-print">
+            <button onclick="window.print()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300">
+                📥 Télécharger en PDF / Imprimer
+            </button>
+            <p class="text-sm text-gray-500 mt-2">Utilise la fonction "Imprimer" de ton navigateur et sélectionne "Enregistrer en PDF".</p>
+        </div>
+
+        <header class="text-center mb-12 md:mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4" style="color: #4361EE;">L'Acide Glycolique pour Peaux Noires</h1>
+            <p class="text-xl md:text-2xl text-gray-600">Le guide visuel pour débloquer l'éclat sans les risques.</p>
+            <div class="mt-8 max-w-3xl mx-auto">
+                <div class="p-6 bg-red-100 border-l-8 border-red-500 rounded-lg shadow-md text-left">
+                    <h2 class="text-2xl font-bold text-red-800 mb-2">Le Risque N°1 à Connaître</h2>
+                    <p class="text-lg text-red-700">Pour les peaux noires et mates, le risque principal n'est pas l'acide lui-même, mais l'inflammation qu'il peut causer. Une mauvaise utilisation mène à **l'Hyperpigmentation Post-Inflammatoire (HPP)**, créant de nouvelles taches sombres. Ce guide vous montre comment l'éviter.</p>
+                </div>
+            </div>
+        </header>
+
+        <section class="mb-12 md:mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8">Le Podium des Produits Clés</h2>
+            <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-10">Voici les trois produits les plus cités, classés par niveau d'expérience. Notez les ingrédients clés qui aident à apaiser la peau.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-white rounded-lg shadow-xl p-6 transition-transform transform hover:scale-105" style="border-top: 8px solid #4CC9F0;">
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">🥇 #1: The Ordinary 7% Toner</h3>
+                    <span class="inline-block bg-cyan-100 text-cyan-800 text-sm font-bold px-3 py-1 rounded-full mb-4">Meilleur Débutant</span>
+                    <ul class="space-y-2 text-gray-700">
+                        <li><span class="font-bold">Niveau:</span> 7% Acide Glycolique</li>
+                        <li><span class="font-bold">Apaisant:</span> Tasmanian Pepperberry</li>
+                        <li><span class="font-bold">Extras:</span> Ginseng, Aloe Vera</li>
+                        <li><span class="font-bold">pH:</span> 3.6 (Optimal)</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-xl p-6 transition-transform transform hover:scale-105" style="border-top: 8px solid #7209B7;">
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">🥈 #2: Paula's Choice 8% Gel</h3>
+                    <span class="inline-block bg-purple-100 text-purple-800 text-sm font-bold px-3 py-1 rounded-full mb-4">Meilleur Intermédiaire</span>
+                    <ul class="space-y-2 text-gray-700">
+                        <li><span class="font-bold">Niveau:</span> 8% Acide Glycolique</li>
+                        <li><span class="font-bold">Apaisant:</span> Camomille, Allantoïne</li>
+                        <li><span class="font-bold">Extras:</span> Texture gel légère</li>
+                        <li><span class="font-bold">pH:</span> 3.5</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-xl p-6 transition-transform transform hover:scale-105" style="border-top: 8px solid #F72585;">
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">🥉 #3: Néostrata Gel Forte 15%</h3>
+                    <span class="inline-block bg-pink-100 text-pink-800 text-sm font-bold px-3 py-1 rounded-full mb-4">Meilleur Avancé</span>
+                    <ul class="space-y-2 text-gray-700">
+                        <li><span class="font-bold">Niveau:</span> 15% Acide Glycolique</li>
+                        <li><span class="font-bold">Apaisant:</span> (Formulation pro)</li>
+                        <li><span class="font-bold">Extras:</span> Puissant sur HPP/Melasma</li>
+                        <li><span class="font-bold">pH:</span> 3.0-3.5</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-xl p-6 md:p-8 mb-12 md:mb-16">
+            <h2 class="text-3xl font-bold text-center mb-4">Analyse Clé: Le Vrai Coût</h2>
+            <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-8">Plus puissant ne veut pas dire plus cher. Le coût par millilitre révèle un gagnant budgétaire écrasant, prouvant que l'efficacité pour débutant est aussi très accessible.</p>
+            <div class="chart-container">
+                <canvas id="priceChart"></canvas>
+            </div>
+        </section>
+
+        <section class="mb-12 md:mb-16">
+            <h2 class="text-3xl font-bold text-center mb-4">🎯 Sélection Selon Ton Type de Peau</h2>
+            <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-10">Votre type de peau dicte la texture et le produit. Choisissez sagement.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="rounded-lg shadow-lg p-6" style="background-color: #E3F2FD; border: 2px solid #1976D2;">
+                    <h3 class="text-2xl font-bold mb-3 text-blue-900">💧 Peau Grasse / Mixte</h3>
+                    <p class="font-bold mb-2">Pourquoi?</p>
+                    <p class="mb-4">Textures légères, absorption rapide, fini mat.</p>
+                    <p class="font-bold mb-2">Produits:</p>
+                    <ul class="list-disc list-inside text-blue-800">
+                        <li>The Ordinary 7% Toner</li>
+                        <li>Paula's Choice 8% Gel</li>
+                        <li>Néostrata Gel Forte 15%</li>
+                    </ul>
+                </div>
+                <div class="rounded-lg shadow-lg p-6" style="background-color: #FCE4EC; border: 2px solid #D81B60;">
+                    <h3 class="text-2xl font-bold mb-3 text-pink-900">🌸 Peau Sèche / Normale</h3>
+                    <p class="font-bold mb-2">Pourquoi?</p>
+                    <p class="mb-4">Formulations en lotions ou crèmes pour un apport en hydratation.</p>
+                    <p class="font-bold mb-2">Produits:</p>
+                    <ul class="list-disc list-inside text-pink-800">
+                        <li>The Ordinary 7% Toner</li>
+                        <li>Paula's Choice 8% Lotion</li>
+                        <li>Biologique Recherche P50</li>
+                    </ul>
+                </div>
+                <div class="rounded-lg shadow-lg p-6" style="background-color: #E8F5E9; border: 2px solid #388E3C;">
+                    <h3 class="text-2xl font-bold mb-3 text-green-900">🌱 Peau Sensible / Réactive</h3>
+                    <p class="font-bold mb-2">Pourquoi?</p>
+                    <p class="mb-4">Basse concentration, agents apaisants. Introduire TRÈS lentement.</p>
+                    <p class="font-bold mb-2">Produits:</p>
+                    <ul class="list-disc list-inside text-green-800">
+                        <li>The Ordinary 7% (max 2x/sem)</li>
+                        <li>Opter pour Acide Lactique</li>
+                        <li>Paula's Choice 5%</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12 md:mb-16">
+            <h2 class="text-3xl font-bold text-center mb-4">⚠️ Les Règles d'Or Avant d'Acheter</h2>
+            <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-10">Pour les peaux noires, la sécurité est primordiale. Voici votre checklist anti-HPP et les contre-indications absolues.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-green-100 border-l-8 border-green-500 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-green-800 mb-4">✅ Checklist Avant Achat</h3>
+                    <ul class="space-y-3 text-lg text-green-700">
+                        <li><span class="font-bold">pH entre 3.5 - 4.0:</span> Crucial pour l'efficacité sans irritation.</li>
+                        <li><span class="font-bold">Agents Apaisants:</span> Cherchez (ex: Tasmanian Pepperberry).</li>
+                        <li><span class="font-bold">Concentration Adaptée:</span> Débuter à 5-7% maximum.</li>
+                        <li><span class="font-bold">Texture Adaptée:</span> Gel (grasse) ou Lotion (sèche).</li>
+                    </ul>
+                </div>
+                <div class="bg-red-100 border-l-8 border-red-500 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-red-800 mb-4">❌ Contre-Indications Absolues</h3>
+                    <ul class="space-y-3 text-lg text-red-700">
+                        <li><span class="font-bold">NE PAS UTILISER SI:</span></li>
+                        <li>Peau irritée, blessée ou coup de soleil.</li>
+                        <li>Rosacée sévère ou eczéma actif.</li>
+                        <li>Utilisation de Rétinol récente (<48h).</li>
+                        <li>Après épilation ou rasage (<24h).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-xl p-6 md:p-8 mb-12 md:mb-16">
+            <h2 class="text-3xl font-bold text-center mb-4">📅 Protocole d'Utilisation Sécuritaire</h2>
+            <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-10">La patience est la clé. N'allez pas trop vite. Suivez ce protocole pour habituer votre peau et éviter l'inflammation.</p>
+            <div class="max-w-2xl mx-auto">
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-dot" style="background-color: #4CC9F0;"></div>
+                        <h4 class="text-xl font-bold mb-1">Semaines 1-4 (Débutant)</h4>
+                        <p class="text-lg text-gray-700"><span class="font-bold text-cyan-600">1x/semaine</span> le soir. SPF 50+ obligatoire le lendemain.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot" style="background-color: #4361EE;"></div>
+                        <h4 class="text-xl font-bold mb-1">Semaines 5-12 (Intermédiaire)</h4>
+                        <p class="text-lg text-gray-700"><span class="font-bold text-blue-600">2-3x/semaine</span> maximum. Écoutez votre peau.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot" style="background-color: #7209B7;"></div>
+                        <h4 class="text-xl font-bold mb-1">3+ Mois (Avancé)</h4>
+                        <p class="text-lg text-gray-700"><span class="font-bold text-purple-600">3-4x/semaine</span> maximum. C'est le plafond !</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot" style="background-color: #F72585;"></div>
+                        <h4 class="text-xl font-bold mb-1">Expert (15%+)</h4>
+                        <p class="text-lg text-gray-700"><span class="font-bold text-pink-600">1-2x/MOIS</span> uniquement. À utiliser comme un peeling ponctuel.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 bg-gray-100 p-6 rounded-lg shadow-inner max-w-3xl mx-auto">
+                <h3 class="text-2xl font-bold mb-4" style="color: #4361EE;">🌙 Routine Soir AG (Exemple)</h3>
+                <ol class="list-decimal list-inside text-lg space-y-2">
+                    <li>Nettoyant doux</li>
+                    <li>**ACIDE GLYCOLIQUE** (attendre 5-10 min)</li>
+                    <li>Sérum hydratant (ex: Acide Hyaluronique)</li>
+                    <li>Crème hydratante riche</li>
+                    <li>Huile (optionnel)</li>
+                </ol>
+                <h3 class="text-2xl font-bold mt-6 mb-4" style="color: #4CC9F0;">☀️ Routine Matin Suivant</h3>
+                <ol class="list-decimal list-inside text-lg space-y-2">
+                    <li>Nettoyant doux</li>
+                    <li>Vitamine C (optionnel)</li>
+                    <li>Hydratant</li>
+                    <li>**SPF 50+ OBLIGATOIRE ⚠️**</li>
+                </ol>
+            </div>
+
+        </section>
+
+        <section class="mb-12 md:mb-16">
+            <h2 class="text-3xl font-bold text-center mb-4">💊 Combinaisons d'Actifs (Do's & Don'ts)</h2>
+            <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-10">Ne mélangez pas tout ! L'AG est puissant. Voici avec quoi le combiner en toute sécurité.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-green-100 border-l-8 border-green-500 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-green-800 mb-4">✅ Compatibles (OK)</h3>
+                    <ul class="space-y-3 text-lg text-green-700">
+                        <li><span class="font-bold">Niacinamide</span> (Matin ou soir différent)</li>
+                        <li><span class="font-bold">Acide Hyaluronique</span> (APRÈS l'AG pour apaiser)</li>
+                        <li><span class="font-bold">Vitamine C</span> (Matin, AG le soir)</li>
+                        <li><span class="font-bold">Peptides</span> (APRÈS l'AG)</li>
+                        <li><span class="font-bold">SPF 50+</span> (Matin OBLIGATOIRE)</li>
+                    </ul>
+                </div>
+                <div class="bg-red-100 border-l-8 border-red-500 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-red-800 mb-4">❌ Incompatibles (STOP)</h3>
+                    <ul class="space-y-3 text-lg text-red-700">
+                        <li><span class="font-bold">Rétinol</span> (NE PAS utiliser le même soir. Alternez les jours.)</li>
+                        <li><span class="font-bold">Autres AHA/BHA</span> (Risque de brûlure chimique.)</li>
+                        <li><span class="font-bold">Vitamine C pure (L-Ascorbic)</span> (Ne pas utiliser en même temps.)</li>
+                        <li><span class="font-bold">Benzoyl Peroxide</span> (Risque d'irritation extrême.)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12 md:mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8">🚨 Signes d'Arrêt Immédiat</h2>
+            <div class="bg-red-700 text-white rounded-lg shadow-2xl p-8 md:p-10 max-w-4xl mx-auto">
+                <h3 class="text-4xl font-bold text-center mb-6">⚠️ ARRÊTE L'UTILISATION SI :</h3>
+                <ul class="list-disc list-inside space-y-3 text-xl">
+                    <li>**Rougeurs persistantes** qui durent plus de 10 minutes.</li>
+                    <li>**Picotements intenses** ou sensation de brûlure.</li>
+                    <li>**Desquamation excessive** ou plaques de sécheresse.</li>
+                    <li>Apparition de **nouvelles taches sombres** (signe d'HPP!).</li>
+                    <li>**Sensibilité extrême** au toucher ou à l'eau.</li>
+                </ul>
+                <div class="mt-6 pt-6 border-t border-red-500">
+                    <h4 class="text-2xl font-bold mb-2">ACTION REQUISE :</h4>
+                    <p class="text-lg">→ Arrêt complet pendant 1 à 2 semaines.<br>
+                        → Hydratation intense (focus sur les crèmes réparatrices).<br>
+                        → Consulter un dermatologue si les symptômes persistent.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center pt-10 border-t border-gray-300">
+            <h3 class="text-2xl font-bold mb-4">Ressources & Contact</h3>
+            <p class="text-lg text-gray-600 mb-6">Ce guide est informatif et ne remplace pas l'avis d'un dermatologue.<br>
+                Pour des analyses d'ingrédients, visitez Paula's Choice Dictionary ou INCIDECODER.</p>
+            <div class="mb-6 space-x-4">
+                <a href="#" class="text-blue-600 hover:underline">YouTube: Linaskintone</a>
+            </div>
+            <p class="text-sm text-gray-500">© 2025 Linaskintone | Tous droits réservés | Version 1.0</p>
+        </footer>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const ctx = document.getElementById('priceChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['The Ordinary 7%', 'Paula\'s Choice 8%', 'Néostrata Gel 15%'],
+                    datasets: [{
+                        label: 'Prix par ml (en $)',
+                        data: [0.04, 0.40, 0.45],
+                        backgroundColor: [
+                            '#4CC9F0',
+                            '#7209B7',
+                            '#F72585'
+                        ],
+                        borderColor: [
+                            '#4CC9F0',
+                            '#7209B7',
+                            '#F72585'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Prix en $ / ml'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        title: {
+                            display: true,
+                            text: 'Rapport Qualité-Prix (en $/ml)',
+                            font: {
+                                size: 18
+                            }
+                        },
+                            tooltip: {
+                                callbacks: {
+                                    title: function(tooltipItems) {
+                                        const item = tooltipItems[0];
+                                        let label = item.chart.data.labels[item.dataIndex];
+                                        if (Array.isArray(label)) {
+                                          return label.join(' ');
+                                        } else {
+                                          return label;
+                                        }
+                                    }
+                                }
+                            }
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
